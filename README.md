@@ -1,5 +1,6 @@
 # serverTodo
-A sweet server consisting of backend (using NodeJS with Sequelize)
+12th July 2020
+A server consisting of backend (using NodeJS with Sequelize)
 
 
 
