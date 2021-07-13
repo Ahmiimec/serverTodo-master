@@ -5,7 +5,12 @@ module.exports = (sequelize, Sequelize) => {
       },
       status: {
         type: Sequelize.STRING
-      }
+      },
+      priority: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+        unique: false,
+      },
     });
   
     return todo;
